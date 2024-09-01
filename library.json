@@ -1,5 +1,5 @@
 {
-  "name": "sd-ducky-v1",
+  "name": "SD-Ducky",
   "keywords": "hid, sdcard, ducky script",
   "description": "HID attack with SD card support",
   "repository": {
@@ -7,14 +7,14 @@
     "url": "https://github.com/HackerNowful/SD-Ducky"
   },
   "version": "1.0.1",
-  "frameworks": "arduino:avr",
+  "frameworks": "arduino",
   "platforms": ["arduino:avr"],
-  "author": [
-    {
-      "name": "Hacker Nowful",
-      "email": "nowful@hypesecinfotech.com",
-      "maintainer": true
-    }
-  ],
-  "headers": "sd-ducky.h"
+  "author": {
+    "name": "Hacker Nowful",
+    "email": "nowful@hypesecinfotech.com",
+    "maintainer": true
+  },
+  "headers": [
+    "sd-ducky.h"
+  ]
 }
